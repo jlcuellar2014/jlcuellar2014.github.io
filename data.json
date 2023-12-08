@@ -1,3 +1,86 @@
 {
-    "about-me": "As a highly experienced Computer Science Engineer with over 15 years in the software development industry, I have successfully completed more than 20 projects for various organizations. My expertise lies in the business sector, particularly in ERP systems, as well as in the technology industry for electronic payment transactions and value-added services at points of sale. Throughout my career, I have held diverse roles such as Analyst Programmer, Team Leader, Project Manager, and Solutions Architect, allowing me to gain extensive experience in all phases of software development and effectively lead teams. Additionally, I have had the privilege of sharing my knowledge and expertise as a thesis tutor and opponent for graduate students, contributing to the academic growth of emerging professionals. With a strong understanding of both agile and traditional heavyweight methodologies, I have successfully managed projects using Agile methodologies such as Scrum and Kanban, prioritizing iterative development, collaboration, and adaptability. Moreover, I have also worked with traditional project management methodologies, ensuring thorough project planning, risk assessment, and meticulous documentation. Having worked in diverse international settings, I possess excellent adaptability skills and a global perspective, enabling me to seamlessly navigate cross-border projects. Furthermore, my comprehensive understanding of all business areas associated with software development solutions, from initial client interactions to post-implementation support, allows me to assess project requirements holistically and provide tailored solutions that align with organizational goals. I am eager to join your team and contribute my skills and experience to drive success."
+    "about-me": "As a highly experienced Computer Science Engineer with over 15 years in the software development industry, I have successfully completed more than 20 projects for various organizations. My expertise lies in the business sector, particularly in ERP systems, as well as in the technology industry for electronic payment transactions and value-added services at points of sale. Throughout my career, I have held diverse roles such as Analyst Programmer, Team Leader, Project Manager, and Solutions Architect, allowing me to gain extensive experience in all phases of software development and effectively lead teams. Additionally, I have had the privilege of sharing my knowledge and expertise as a thesis tutor and opponent for graduate students, contributing to the academic growth of emerging professionals. With a strong understanding of both agile and traditional heavyweight methodologies, I have successfully managed projects using Agile methodologies such as Scrum and Kanban, prioritizing iterative development, collaboration, and adaptability. Moreover, I have also worked with traditional project management methodologies, ensuring thorough project planning, risk assessment, and meticulous documentation. Having worked in diverse international settings, I possess excellent adaptability skills and a global perspective, enabling me to seamlessly navigate cross-border projects. Furthermore, my comprehensive understanding of all business areas associated with software development solutions, from initial client interactions to post-implementation support, allows me to assess project requirements holistically and provide tailored solutions that align with organizational goals. I am eager to join your team and contribute my skills and experience to drive success.",
+    "work-experience": [
+        {
+            "company": "FREELANCER",
+            "role": "Full Stack Developer",
+            "roleDescription": ".NET Backend Developer specializing in application business logic.",
+            "place": "Alicante",
+            "start": "Mar 2023",
+            "end": "Present",
+            "responsabilities": [
+                "Proficient in creating API and web services using ASP.NET Core",
+                "Experienced in database management, security, and performance optimization",
+                "Skilled in testing, quality assurance, and problem-solving"
+            ]
+        },
+        {
+            "company": "VERIFONE",
+            "role": "Solutions Architect",
+            "roleDescription": "Verifone: American multinational corporation that provides technology for electronic payment transactions and value-added services at the point of sale.",
+            "place": "Montevideo",
+            "start": "Jan 2022",
+            "end": "Feb 2023",
+            "responsabilities": [
+                "Developed detailed plans with objectives, deadlines, and necessary resources for successful project execution",
+                "Designed and implemented IT solutions architecture, aligning with company's business strategy and requirements",
+                "Provided consulting support to ensure applications within projects adhered to company's architecture standards",
+                "Documented solution architecture analysis and design work, ensuring secure key exchange and encryption of confidential information"
+            ]
+        },
+        {
+            "company": "VERIFONE",
+            "role": "Senior Software Engineer",
+            "roleDescription": "",
+            "place": "Montevideo",
+            "start": "May 2019",
+            "end": "Jan 2022",
+            "responsabilities": [
+                "Development of detailed plans with project objectives, deadlines, and necessary resources",
+                "Migration of applications between development and production environments",
+                "Definition and implementation of tasks and components for the SDLC",
+                "Analysis, design, and implementation of new requirements",
+                "Full-stack developer",
+                "Support level 3"
+            ]
+        },
+        {
+            "company": "EICMA",
+            "role": "Project Manager",
+            "roleDescription": "EICMA: Information Technology and Communications Company of the Ministry of Agriculture of Cuba.",
+            "place": "Havana",
+            "start": "Jan 2018",
+            "end": "Jan 2019",
+            "responsabilities": [
+                "Developed detailed plans with project objectives, deadlines, resources, and tasks",
+                "Managed commercial contracts",
+                "Sales-oriented IT and Communications Company",
+                "Results-oriented development of plans and contracts"
+            ]
+        },
+        {
+            "company": "XETID",
+            "role": "Senior Sohware Engineer / Team Leader / Project Manager",
+            "roleDescription": "XETID: Company dedicated to the software, automation, and communications sector in Cuba.",
+            "place": "Havana",
+            "start": "Jan 2008",
+            "end": "Jan 2017",
+            "responsabilities": [
+                "Developed detailed plans with objectives, deadlines, and necessary resources for software projects",
+                "Collected, analyzed, and recorded business, functional, and non-functional requirements",
+                "Identified software solutions that enhanced end-user experience",
+                "Managed software development projects, providing support and ensuring code quality",
+                "Fostered talent and established a culture of continuous improvement within the software team",
+                "Review and verification of the project code and correction of errors",
+                "Full-stack developer"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "mame": "",
+            "description": "",
+            "technologie": []
+        }
+    ]
 }
