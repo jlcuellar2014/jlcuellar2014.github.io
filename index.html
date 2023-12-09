@@ -17,12 +17,17 @@
 
 <body class="container-xxl" data-spy="scroll" data-target="#nav-sections">
     <div class="row">
-        <div class="col-12 col-lg-5">
+        <div id="content-nav" class="col-12 col-lg-5">
             <section id="main-menu-section">
                 <h1 class="fw-bold your-name"></h1>
                 <h2 class="your-title"></h2>
                 <h3 class="your-role"></h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-sections"
+                    aria-controls="nav-sections" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <nav id="nav-sections" class="navbar">
+
                     <ul class="navbar">
                         <li class="nav-item">
                             <a class="nav-link px-1 py-1 active" href="#about-me-section">About Me</a>
@@ -60,7 +65,7 @@
                 </nav>
             </section>
         </div>
-        <div class="col-12 col-lg-7">
+        <div id="content-body" class="col-12 col-lg-7">
             <div id="about-me-section">
                 <section>
                     <h4>About Me</h4>

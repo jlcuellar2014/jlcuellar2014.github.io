@@ -7,7 +7,12 @@ $(document).ready(function () {
 
     var scrollSpy = new bootstrap.ScrollSpy(document.body, {
         target: '#nav-sections'
-      });
+    });
+
+    var contentBody = document.getElementById('content-body');
+    window.addEventListener('scroll', function () {
+        contentBody.scrollTop = window.scrollY;
+    });
 });
 
 function showData(data) {
@@ -24,7 +29,7 @@ function showData(data) {
     role.append(data["role"]);
 
     about_me_section.append(data["about-me"]);
-    
+
     data["work-experience"].forEach(e => {
 
         var item = "";
