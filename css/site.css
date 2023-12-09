@@ -1,4 +1,82 @@
-.fix-about-me {
+:root {
+    --page-padding-top: 50px;
+    --section-padding-top: 10px;
+    --page-background-color: rgb(213, 210, 210);
+    --page-background-color-hover: rgb(204, 204, 204);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--page-background-color);
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+small {
+    font-size: 80%;
+}
+
+section>h4 {
+    padding-top: var(--page-padding-top);
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#work-experience>section {
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+
+#work-experience>section :hover {
+    background-color: var(--page-background-color-hover);
+}
+
+#work-experience>section>div {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.main-menu {
     position: fixed;
-    top: 10px;
+    top: var(--page-padding-top);
+    margin-top: -10px;
+    text-align: right;
+}
+
+#nav-sections {
+    padding-top: var(--page-padding-top);
+}
+
+.nav-link {
+    padding-top: var(--page-padding-top);
+    text-transform: uppercase;
+}
+
+a svg {
+    color: black !important;
+}
+
+.active {
+    font-weight: bold;
 }
