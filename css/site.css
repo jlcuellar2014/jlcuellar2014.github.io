@@ -1,6 +1,6 @@
 :root {
     --page-padding-top: 50px;
-    --section-padding-top: 10px;
+    --section-padding: 20px;
     --page-background-color: rgb(213, 210, 210);
     --page-background-color-hover: rgb(204, 204, 204);
 }
@@ -12,19 +12,19 @@ body {
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 h4 {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 h5 {
@@ -36,11 +36,23 @@ small {
     font-size: 80%;
 }
 
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    padding-top: var(--page-padding-top);
+    text-transform: uppercase;
+}
+
+.active {
+    font-weight: bold;
+}
+
 section>h4 {
     padding-top: var(--page-padding-top);
     border-bottom: 1px solid #000;
     text-transform: uppercase;
-    padding-bottom: 10px;
 }
 
 #work-experience>section {
@@ -54,29 +66,79 @@ section>h4 {
 
 #work-experience>section>div {
     margin: 0;
-    padding-top: 10px;
-}
-
-.main-menu {
-    position: fixed;
-    top: var(--page-padding-top);
-    margin-top: -10px;
-    text-align: right;
-}
-
-#nav-sections {
-    padding-top: var(--page-padding-top);
-}
-
-.nav-link {
-    padding-top: var(--page-padding-top);
-    text-transform: uppercase;
 }
 
 a svg {
     color: black !important;
 }
 
-.active {
-    font-weight: bold;
+#main-menu-section {
+    text-align: right;
+    padding: 10px 10px 0px 0px;
+}
+
+#main-menu-section>nav {
+    padding: 0;
+    margin: 0;
+}
+
+#nav-sections>.navbar {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-top: var(--section-padding) !important;
+    background-color: var(--page-background-color);
+}
+
+#about-me-section {
+    padding-top: 0;
+}
+
+/* body {
+    border: solid violet 2px;
+} */
+
+/* small */
+@media (min-width: 576px) {
+
+    /* body {
+        border: solid orange 2px;
+    } */
+}
+
+/* medium */
+@media (min-width: 768px) {
+
+    /* body {
+        border: solid red 2px;
+    } */
+}
+
+/* large */
+@media (min-width: 992px) {
+
+    /* body {
+        border: solid green 2px;
+    } */
+
+    #main-menu-section {
+        padding-top: var(--page-padding-top);
+        margin-top: -15px;
+        position: fixed;
+        background-color: var(--page-background-color);
+    }
+
+    #about-me-section {
+        padding-top: var(--page-padding-top);
+    }
+
+    #about-me-section>h4 {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* body {
+        border: solid blue 2px;
+    } */
 }
